@@ -10,27 +10,29 @@
   <table class="table tabel-compact">
     <thead>
       <tr>
-        <th>Status</th>
-        <th>Service</th>
-        <th>Number</th>
-        <th>Protocol</th>
-        <th class="table-cell-fit">Description</th>
+        <th class="table-cell-fit">Status</th>
+        <th class="table-cell-fit">Service</th>
+        <th class="table-cell-fit">Number</th>
+        <th class="table-cell-fit">Protocol</th>
+        <th>Description</th>
       </tr>
     </thead>
     <tbody>
       {#each tableData as row}
         <tr>
           {#if correctPorts.includes(row.number)}
-            <td><i class="fa-solid fa-circle-check text-green-400"></i></td>
+            <td class="flex justify-center"
+              ><i class="fa-solid fa-circle-check text-green-400"></i></td
+            >
           {:else}
-            <td><i class="fa-solid fa-circle-xmark text-red-600"></i> </td>
+            <td class="flex justify-center"
+              ><i class="fa-solid fa-circle-xmark text-red-600"></i>
+            </td>
           {/if}
           <td>{row.service}</td>
           <td>{row.number}</td>
           <td>{row.protocol}</td>
-          <td class="table-cell-fit"
-            ><p class="text-wrap">{row.description}</p></td
-          >
+          <td><p class="text-wrap">{row.description}</p></td>
         </tr>
       {/each}
     </tbody>
