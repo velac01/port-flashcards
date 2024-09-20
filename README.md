@@ -1,38 +1,11 @@
-# create-svelte
+# port-flashcards
+[![Netlify Status](https://api.netlify.com/api/v1/badges/b8366b3d-e0a7-47ca-b818-708f74fc8694/deploy-status)](https://app.netlify.com/sites/capable-conkies-9d017f/deploys)
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/main/packages/create-svelte).
+## About
+I hacked this together in preperation for my upcoming Security+ exam. I needed help learning about the ports. 
+If you want to work on this and make it better, potentially add a DB or something feel free to make a PR. 
 
-## Creating a project
+## Tech
+I used svelte and it's probably not written great but it works so far. It's kind of hacky because I used local storage and some weird functions but... it works?
 
-If you're seeing this, you've probably already done this step. Congrats!
-
-```bash
-# create a new project in the current directory
-npm create svelte@latest
-
-# create a new project in my-app
-npm create svelte@latest my-app
-```
-
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+- Cody
