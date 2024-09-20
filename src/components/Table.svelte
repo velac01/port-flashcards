@@ -29,9 +29,9 @@
               ><i class="fa-solid fa-circle-xmark text-red-600"></i>
             </td>
           {/if}
-          <td>{row.service}</td>
-          <td>{row.number}</td>
-          <td>{row.protocol}</td>
+          <td class="font-medium text-center">{row.service}</td>
+          <td class="font-medium text-center">{row.number}</td>
+          <td class="font-medium text-center">{row.protocol}</td>
           <td><p class="text-wrap">{row.description}</p></td>
         </tr>
       {/each}
