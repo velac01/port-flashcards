@@ -1,0 +1,146 @@
+[
+  {
+    "service": "HTTP",
+    "number": 80,
+    "description": "Used for unencrypted web traffic.",
+    "protocol": "TCP"
+  },
+  {
+    "service": "HTTPS",
+    "number": 443,
+    "description": "Used for secure web traffic using SSL/TLS.",
+    "protocol": "TCP"
+  },
+  {
+    "service": "FTP",
+    "number": 21,
+    "description": "File Transfer Protocol, used for transferring files.",
+    "protocol": "TCP"
+  },
+  {
+    "service": "SSH",
+    "number": 22,
+    "description": "Secure Shell, used for secure remote login and other secure network services.",
+    "protocol": "TCP"
+  },
+  {
+    "service": "DNS",
+    "number": 53,
+    "description": "Domain Name System, used to resolve domain names to IP addresses.",
+    "protocol": "UDP"
+  },
+  {
+    "service": "SMTP",
+    "number": 25,
+    "description": "Simple Mail Transfer Protocol, used for sending emails.",
+    "protocol": "TCP"
+  },
+  {
+    "service": "POP3",
+    "number": 110,
+    "description": "Post Office Protocol v3, used by email clients to retrieve emails from a server.",
+    "protocol": "TCP"
+  },
+  {
+    "service": "IMAP",
+    "number": 143,
+    "description": "Internet Message Access Protocol, used to retrieve emails and sync them across multiple devices.",
+    "protocol": "TCP"
+  },
+  {
+    "service": "Telnet",
+    "number": 23,
+    "description": "Used for unencrypted text-based communication, usually for remote login.",
+    "protocol": "TCP"
+  },
+  {
+    "service": "RDP",
+    "number": 3389,
+    "description": "Remote Desktop Protocol, used for remote desktop connections.",
+    "protocol": "TCP"
+  },
+  {
+    "service": "SNMP",
+    "number": 161,
+    "description": "Simple Network Management Protocol, used for network management and monitoring.",
+    "protocol": "UDP"
+  },
+  {
+    "service": "SFTP",
+    "number": 22,
+    "description": "Secure File Transfer Protocol, a secure version of FTP using SSH.",
+    "protocol": "TCP"
+  },
+  {
+    "service": "TFTP",
+    "number": 69,
+    "description": "Trivial File Transfer Protocol, used for simple file transfers, often in embedded systems.",
+    "protocol": "UDP"
+  },
+  {
+    "service": "LDAP",
+    "number": 389,
+    "description": "Lightweight Directory Access Protocol, used for accessing and maintaining distributed directory information services.",
+    "protocol": "TCP"
+  },
+  {
+    "service": "LDAPS",
+    "number": 636,
+    "description": "LDAP over SSL, a secure version of LDAP.",
+    "protocol": "TCP"
+  },
+  {
+    "service": "NTP",
+    "number": 123,
+    "description": "Network Time Protocol, used for clock synchronization between computer systems.",
+    "protocol": "UDP"
+  },
+  {
+    "service": "MySQL",
+    "number": 3306,
+    "description": "MySQL database service port.",
+    "protocol": "TCP"
+  },
+  {
+    "service": "PostgreSQL",
+    "number": 5432,
+    "description": "PostgreSQL database service port.",
+    "protocol": "TCP"
+  },
+  {
+    "service": "MSSQL",
+    "number": 1433,
+    "description": "Microsoft SQL Server database service port.",
+    "protocol": "TCP"
+  },
+  {
+    "service": "SMB",
+    "number": 445,
+    "description": "Server Message Block, used for file sharing and network communication between systems.",
+    "protocol": "TCP"
+  },
+  {
+    "service": "Kerberos",
+    "number": 88,
+    "description": "Authentication protocol used for secure user authentication over a network.",
+    "protocol": "TCP"
+  },
+  {
+    "service": "Syslog",
+    "number": 514,
+    "description": "Used for logging system messages in a network.",
+    "protocol": "UDP"
+  },
+  {
+    "service": "BGP",
+    "number": 179,
+    "description": "Border Gateway Protocol, used for exchanging routing information between autonomous systems.",
+    "protocol": "TCP"
+  },
+  {
+    "service": "IRC",
+    "number": 194,
+    "description": "Internet Relay Chat, used for text-based communication in real-time.",
+    "protocol": "TCP"
+  }
+]
