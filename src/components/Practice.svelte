@@ -42,7 +42,9 @@
   <div class="card p-4 mx-2">
     <div class="container mx-auto flex flex-col gap-2">
       <div
-        class={"flex flex-row" + index > 0 ? "justify-between" : "justify-end"}
+        class="flex flex-row w-full"
+        class:justify-between={index > 0}
+        class:justify-end={index === 0}
       >
         <button
           class={index > 0 ? "" : "hidden"}

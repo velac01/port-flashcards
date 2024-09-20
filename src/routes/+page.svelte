@@ -10,7 +10,6 @@
 <div class="container mx-auto">
   <TabGroup>
     <Tab bind:group={tabSet} name="tab1" value={0}>
-      <!-- <svelte:fragment slot="lead">(icon)</svelte:fragment> -->
       <span>Study</span>
     </Tab>
     <Tab bind:group={tabSet} name="tab2" value={1}>Practice</Tab>
@@ -28,8 +27,6 @@
         <div>
           <Practice ports={data} />
         </div>
-      {:else if tabSet === 2}
-        (tab panel 3 contents)
       {/if}
     </svelte:fragment>
   </TabGroup>

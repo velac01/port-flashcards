@@ -7,5 +7,3 @@ If you want to work on this and make it better, potentially add a DB or somethin
 
 ## Tech
 I used svelte and it's probably not written great but it works so far. It's kind of hacky because I used local storage and some weird functions but... it works?
-
-- Cody
