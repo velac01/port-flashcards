@@ -10,7 +10,7 @@
       parseInt(userPort) === ports[index].number &&
       userProtocol.toUpperCase() === ports[index].protocol.toUpperCase()
     ) {
-      feedbackMessage = "Correct! You matched both the port and the protocol.";
+      feedbackMessage = `Correct! ${ports[index].service} runs on port ${ports[index].number}.`;
       let correctPorts = JSON.parse(localStorage.getItem("correctPorts")) || [];
       if (!correctPorts.includes(ports[index].number)) {
         correctPorts.push(ports[index].number);
@@ -55,8 +55,9 @@
           on:click={() => handleNav(true)}>Next</button
         >
       </div>
-      <div class="flex flex-col">
+      <div class="flex flex-col gap-2">
         <h2 class="h2 text-center">{ports[index].service}</h2>
+        <p class="text-center">{ports[index].description}</p>
         <input
           type="number"
           placeholder="Enter Port Number"

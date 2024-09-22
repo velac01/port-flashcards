@@ -3,7 +3,7 @@
   function clearCorrectPorts() {
     if (typeof window !== "undefined") {
       localStorage.removeItem("correctPorts");
-      alert("Correct ports cleared from localStorage.");
+      alert("Progress Reset Successfully");
       window.location.reload()
     }
   }
